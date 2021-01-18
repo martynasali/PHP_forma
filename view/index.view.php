@@ -13,7 +13,9 @@
 <body>
 <div class="container">
 
-        <?php if (isset($_POST['send'])):?>
+        <?php
+        $validation = [];
+        if (isset($_POST['send'])):?>
 
 
             <?php
